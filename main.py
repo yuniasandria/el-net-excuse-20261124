@@ -1,6 +1,9 @@
 import os
 
-LINE = "I hallucinated a version of me that met your deadline. He is doing great. I am still here."
+PART_A = "I hallucinated a version of me that met your deadline. "
+PART_B = "He is doing great. I am still here."
+LINE = PART_A + PART_B
+assert LINE == "I hallucinated a version of me that met your deadline. He is doing great. I am still here."
 
 
 def main():
